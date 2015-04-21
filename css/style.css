@@ -1,0 +1,46 @@
+
+/* message */
+div.valid_message{
+    background-color: #32cd32;
+    margin: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style: solid;
+    border-color: #000;
+    border-width: thin;
+    text-align: center;
+}
+
+div.failed_message{
+    background-color: #F00;
+    margin: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style: solid;
+    border-color: #000;
+    border-width: thin;
+    text-align: center;
+}
+
+/* cesta */ 
+ol.navigation { 
+      list-style-type: none;
+      font-size: 80%;
+        
+}
+
+ol.navigation li{ 
+      display: inline;
+}
+
+ol.navigation a{
+      color: #000;
+}
+
+ol.navigation li:not(:first-child):before {
+      content: " | ";
+}
